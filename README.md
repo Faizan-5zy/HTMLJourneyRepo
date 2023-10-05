@@ -1,7 +1,7 @@
 # HTMLJourneyRepo
 This repository showcases my journey in HTML fundamental concepts . Explore a variety of projects, from basic webpage layouts to interactive interfaces. Each project comes with detailed documentation and creative implementations. Join me in mastering HTML and building innovative web solutions!
 
-Personal Profile HTML Template
+## Personal Profile HTML Template
 This HTML template provides a basic structure for creating a personal profile web page. Below is a brief overview of the different sections and functionalities covered in this code:
 
 1. Document Structure

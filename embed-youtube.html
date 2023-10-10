@@ -1,7 +1,18 @@
-# Embed YouTube Video
-This repository demonstrates how to embed a YouTube video into a webpage using an `<iframe>` element. The `<iframe>` allows you to seamlessly integrate YouTube videos into your web projects.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embed Youtube Video</title>
+</head>
+<body>
+    <!-- Embed YouTube Video -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4aE58wbXdqU" title="YouTube video player" 
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Embedded Video
-
-`<iframe width="560" height="315" src="https://www.youtube.com/embed/4aE58wbXdqU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>``</iframe>`
-The `<iframe>` element above embeds the YouTube video with the specified video URL. It includes attributes for width, height, and various permissions like autoplay and fullscreen mode. 
+    <!-- Instructions (optional) -->
+    <p>Instructions: You can start the video at a specific time by appending <code>?start=XXs</code> to the URL, 
+    where XX is the number of seconds. To show player controls, remove the <code>controls</code> attribute from the <code>iframe</code> tag.</p>
+</body>
+</html>

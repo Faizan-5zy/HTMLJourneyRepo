@@ -1,5 +1,5 @@
 # HTML Headings Example
-This repository contains a simple HTML document demonstrating the usage of different heading tags in HTML. Headings are used to define the structure and hierarchy of content in a web page. The code provided showcases headings from level 1 (<h1>) to level 6 (<h6>), each representing a decreasing level of importance in the document's structure.
+This repository contains a simple HTML document demonstrating the usage of different heading tags in HTML. Headings are used to define the structure and hierarchy of content in a web page. The code provided showcases headings from level 1 `<h1>` to level 6 `<h6>`, each representing a decreasing level of importance in the document's structure.
 
 ## Preview
 ### H1 heading: Represents the highest level of heading.

@@ -18,6 +18,3 @@ This simple HTML document demonstrates the usage of the description list (`<dl>`
 
 To view this example, simply open the `index.html` file in a web browser.
 
----
-
-*Note: Feel free to modify the content or style according to your needs.*

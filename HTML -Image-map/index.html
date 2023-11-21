@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Map Example</title>
+</head>
+<body>
+
+<h2>Click on the Image Map</h2>
+
+<!-- Define the image with an associated usemap attribute -->
+<img src="your-image.jpg" alt="Image Map Example" usemap="#exampleMap">
+
+<!-- Define the map and its clickable areas -->
+<map name="exampleMap">
+    <!-- Define a clickable area (rectangle) -->
+    <area shape="rect" coords="10,10,100,100" href="https://example.com/page1.html" alt="Area 1">
+
+    <!-- Define a clickable area (circle) -->
+    <area shape="circle" coords="150,70,50" href="https://example.com/page2.html" alt="Area 2">
+
+    <!-- Define a clickable area (polygon) -->
+    <area shape="poly" coords="300,10,400,50,350,120" href="https://example.com/page3.html" alt="Area 3">
+</map>
+
+</body>
+</html>
